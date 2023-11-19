@@ -134,3 +134,4 @@ class TestWeb:
         main = WebClass(driver)
         main.click_button_single_user(button_delay_list_user)
         main.send_get_request(body, resource, 200)
+
